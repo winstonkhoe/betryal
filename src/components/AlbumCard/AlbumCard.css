@@ -1,0 +1,54 @@
+.album-card{
+    
+    width: 18rem;
+    height: fit-content;
+    margin: 10px;
+    background-color: var(--bg-dark-surface);
+    color: var(--txt-primary);
+}
+
+.album-list{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    /* margin: 20px 20px 0 20px; */
+}
+
+.album-image{
+    height: 10vh;
+    width: 10vh;
+    object-fit: cover;
+}
+
+.album-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+    width: 100%;
+    color: black;
+}
+
+.album-name{
+    display: inline-block;
+    color: #fff;
+    /* max-height: 10px; */
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    word-wrap: none;
+    text-overflow: ellipsis;
+}
+
+.album-artist{
+    color: #9E9E9E;
+}
+
+h5, h6{
+    padding: 0;
+    margin: 0;
+}
+
+h6{
+    font-size: smaller;
+}

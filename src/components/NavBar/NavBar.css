@@ -1,0 +1,27 @@
+.navcontainer{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    background-color: var(--bg-dark-surface);
+    margin: 0;
+    width: 100vw;
+    padding: 10px 0 10px 0;
+}
+
+.item{
+    background-color: var(--bg-dark-surface);
+    border-radius: 15px;
+    padding: 5px 15px 5px 15px;
+    color: #C8C8C8;
+}
+
+a{
+    color: #C8C8C8;
+}
+
+
+
+.selected{
+    background-color: var(--bg-dark-primary);
+}
+
