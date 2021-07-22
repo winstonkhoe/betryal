@@ -68,4 +68,23 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# betryal" 
+
+# betryal Web App
+# Search Page (Search for Album based on Artist name)
+![image](https://user-images.githubusercontent.com/69143322/126628828-6564f0fb-f112-4a2b-b5d9-f142c0d4e7a3.png)
+- betryal will find any albums related to the artist with similar names
+- While the web is searching for the albums then it will show up loading page <br>
+![image](https://user-images.githubusercontent.com/69143322/126629222-231ed159-a614-4260-9b1f-8def421c0f1b.png)
+<br>If the album is clicked, it will redirect to detail album page
+
+# Detail Album Page
+![image](https://user-images.githubusercontent.com/69143322/126629399-88afd254-0eef-4106-ab31-1fd9a06ce2c6.png)
+- If the image is clicked, it will play / pause the music and will stop any concurrent music play rightaway
+- If the 'broken-heart' is clicked, it will add to your favorites and change to 'full-heart'
+![image](https://user-images.githubusercontent.com/69143322/126630970-f9720f99-69a8-489e-8545-c73b36bfc7d4.png)
+
+# Favorite Page
+![image](https://user-images.githubusercontent.com/69143322/126631001-dc89d6fd-67ae-4fff-a3a9-0da8aad867d5.png)
+- If the image is clicked, it will play / pause the music and will stop any concurrent music play rightaway
+- If the 'full-heart' is clicked, it will be removed from the favorite list <br>
+![image](https://user-images.githubusercontent.com/69143322/126631092-704f055b-a692-4790-9902-fed9e5e0a368.png)
